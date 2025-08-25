@@ -34,7 +34,7 @@ import {
   DialogTrigger,
 } from "@/components/ui/dialog";
 import { Textarea } from "@/components/ui/textarea";
-import supabase_client from "@/app/api/supabase-client";
+import supabase_client from "@/lib/supabase-client";
 import { addCode, deleteCode, editCode } from "@/lib/actions";
 
 // 🎨 Language colors
